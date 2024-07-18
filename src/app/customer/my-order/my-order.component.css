@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* 
+.order-carts .rate-price{
+display: flex;
+justify-content: space-between !important;
+} */
+
+.card{
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}

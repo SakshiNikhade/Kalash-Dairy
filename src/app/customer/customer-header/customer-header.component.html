@@ -1,0 +1,36 @@
+<nav class="navbar  navbar-expand-sm navbar-light bg-light">
+    <div class="container-fluid navbar-container">
+      <a class="navbar-brand nav-logo" href="#">Kalash Dairy</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto ">
+            <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/dairy">Dairy </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/grocery">Grocery </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/order">My Order </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/account"> My Account </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link"  routerLink="/order">  <i class="fas fa-shopping-bag"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <router-outlet></router-outlet>
+  <app-customer-footer></app-customer-footer>
